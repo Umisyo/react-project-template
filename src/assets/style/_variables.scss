@@ -1,0 +1,54 @@
+// colors
+// -----------------------------------------
+$black: #181919;
+$white: #fff;
+
+// font family's
+// -----------------------------------------
+$font-family-base: 'Noto Sans CJK JP', 'Noto Sans JP', "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+
+// font colors
+// -----------------------------------------
+$font-color-base: $black;
+
+// font size
+// -----------------------------------------
+$font-xs-size: 1rem;
+$font-xsl-size: 1.1rem;
+$font-ss-size: 1.2rem;
+$font-s-size: 1.3rem;
+$font-sl-size: 1.4rem;
+$font-ms-size: 1.5rem;
+$font-m-size: 1.6rem;
+$font-ml-size: 1.7rem;
+$font-ls-size: 1.8rem;
+$font-l-size: 1.9em;
+$font-ll-size: 2rem;
+$font-xl-size: 3rem;
+$font-xxl-size: 4rem;
+
+// layout
+// -----------------------------------------
+$header-height-pc: 120px;
+$header-height-sp: 68px;
+$footer-height-pc: 98px;
+$footer-height-sp: 60px;
+$contents-width: 1100px;
+
+// z-index
+// Add in increments of 5
+// -----------------------------------------
+$layer: (
+  header: 5,
+  default: 1,
+  overlay: -5,
+);
+
+// break points
+// -----------------------------------------
+$breakpoints: (
+  sp: 'all and (max-width: 559px)',
+  tb: 'all and (min-width: 560px) and (max-width: 959px)',
+  pc: 'all and (min-width: 960px)',
+  md: 'all and (max-width: 959px)'
+);
