@@ -104,7 +104,7 @@ module.exports = {
       'error', {
         bracketSpacing: true,
         printWidth: 80,
-        semi: true,
+        semi: false,
         singleQuote: true,
         trailingComma: 'all',
         useTabs: false
