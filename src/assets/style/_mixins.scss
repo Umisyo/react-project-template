@@ -1,0 +1,10 @@
+// Generating media queries
+@mixin media($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+      @content;
+    }
+  } @else {
+    @error "Sass変数の$breakpointsに#{$breakpoint}キーは存在しません。";
+  }
+}
