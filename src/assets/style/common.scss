@@ -4,20 +4,20 @@
 @import './_utility';
 
 html {
+  box-sizing: border-box;
   font-family: $font-family-base;
   font-size: 62.5%;
-  word-wrap : break-word;
   overflow-wrap : break-word;
   -webkit-text-size-adjust: none;
-  box-sizing: border-box;
+  word-wrap : break-word;
 }
 
 body {
+  background: #fff;
   color: $font-color-base;
   font-size: $font-m-size;
   letter-spacing: 0.05em;
   line-height: 1.88;
-  background: #fff;
 
   @include media(sp) {
     font-size: $font-s-size;
@@ -32,45 +32,42 @@ h3,
 h4,
 h5,
 h6 {
+  font-weight: bold;
   margin: 0;
   padding: 0;
-  font-weight: bold;
 }
 
 h1 {
-  margin-bottom: 36px;
   font-size: $font-xxl-size;
-  line-height: 1.3;
   letter-spacing: 0;
+  line-height: 1.3;
+  margin-bottom: 36px;
 
   @include media (sp) {
-    margin-bottom: 18px;
     font-size: $font-ll-size;
-    line-height: 1.25;
     letter-spacing: 0.05;
+    line-height: 1.25;
+    margin-bottom: 18px;
   }
 }
 
 h2 {
-  margin: 44px 0 16px;
   font-size: $font-xl-size;
-  line-height: 1.2;
   letter-spacing: 0.04em;
+  line-height: 1.2;
+  margin: 44px 0 16px;
 
   @include media (sp) {
-    margin: 32px 0 8px;
     font-size: $font-ms-size;
-    line-height: 1.66;
     letter-spacing: 0.05em;
+    line-height: 1.66;
+    margin: 32px 0 8px;
   }
 }
 
 img {
-  vertical-align: bottom;
-}
-
-img {
   max-width: 100%;
+  vertical-align: bottom;
   vertical-align: middle;
 }
 
@@ -90,13 +87,13 @@ ol {
   padding-top: $header-height-pc;
 
   @include media(md) {
-    padding-top: $header-height-sp;
     max-width: none;
+    padding-top: $header-height-sp;
   }
 
   &__inner {
-    max-width: $contents-width;
     margin: 0 auto;
+    max-width: $contents-width;
     padding: 0 50px;
 
     @include media(sp) {

@@ -4,7 +4,9 @@
     @media #{map-get($breakpoints, $breakpoint)} {
       @content;
     }
-  } @else {
-    @error "Sass変数の$breakpointsに#{$breakpoint}キーは存在しません。";
+  }
+
+  @else {
+    @error 'Sass変数の$breakpointsに#{$breakpoint}キーは存在しません。';
   }
 }

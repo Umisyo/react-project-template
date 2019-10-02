@@ -37,6 +37,7 @@
 // space
 // -----------------------------------------
 $spaceClassFlg: true !default;
+
 @if spaceClassFlg {
   $endValue: 10 !default;
 
@@ -46,15 +47,19 @@ $spaceClassFlg: true !default;
         .util--#{$key}-m#{$i * 5} {
           margin: 5px * $i !important;
         }
+
         .util--#{$key}-mt#{$i * 5} {
           margin-top: 5px * $i !important;
         }
+
         .util--#{$key}-mr#{$i * 5} {
           margin-right: 5px * $i !important;
         }
+
         .util--#{$key}-mb#{$i * 5} {
           margin-bottom: 5px * $i !important;
         }
+
         .util--#{$key}-ml#{$i * 5} {
           margin-left: 5px * $i !important;
         }
@@ -62,15 +67,19 @@ $spaceClassFlg: true !default;
         .util--#{$key}-p#{$i * 5} {
           padding: 5px * $i !important;
         }
+
         .util--#{$key}-pt#{$i * 5} {
           padding-top: 5px * $i !important;
         }
+
         .util--#{$key}-pr#{$i * 5} {
           padding-right: 5px * $i !important;
         }
+
         .util--#{$key}-pb#{$i * 5} {
           padding-bottom: 5px * $i !important;
         }
+
         .util--#{$key}-pl#{$i * 5} {
           padding-left: 5px * $i !important;
         }
