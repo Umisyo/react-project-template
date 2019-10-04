@@ -5,7 +5,9 @@ $white: #fff;
 
 // font family's
 // -----------------------------------------
-$font-family-base: 'Noto Sans CJK JP', 'Noto Sans JP', '游ゴシック Medium', YuGothic, YuGothicM, 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, sans-serif;
+$font-family-base: 'Noto Sans CJK JP', 'Noto Sans JP', '游ゴシック Medium',
+  YuGothic, YuGothicM, 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro',
+  メイリオ, Meiryo, sans-serif;
 
 // font colors
 // -----------------------------------------
@@ -41,7 +43,7 @@ $contents-width: 1100px;
 $layer: (
   header: 5,
   default: 1,
-  overlay: -5,
+  overlay: -5
 );
 
 // break points
