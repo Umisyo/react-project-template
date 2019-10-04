@@ -16,11 +16,13 @@ By using these, you can safely and comfortably promote productive development wi
 ```bash
 $git clone https://github.com/Umisyo/react-project-template [Your project Name]
 
-$git init
+$git init && git remote rm origin
 
 or
 
-Fork this repository on github
+Fork this repository on github and
+
+$git clone [Your repository]
 ```
 
 ```bash
